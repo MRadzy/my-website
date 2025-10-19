@@ -1,0 +1,25 @@
+body {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#bigButton {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 10px 0 #a10000;
+  transition: all 0.1s ease;
+}
+
+#bigButton:active {
+  transform: translateY(5px);
+  box-shadow: 0 5px 0 #a10000;
+}
